@@ -9,9 +9,9 @@ ETL pipeline that extracts data from S3, stages them in Redshift, and transforms
 
 ## How to use
 
-Create tables
+- Create tables
 ```$ python create_tables.py```
-Load Data
+- Load Data
 ```$ python etl.py```
 
 ## Project Files

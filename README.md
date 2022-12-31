@@ -96,10 +96,3 @@ Using the song and log datasets, I need to create a star schema optimized for qu
 2. Implement the logic in `etl.py` to load data from staging tables to analytics tables on Redshift.
 3. Test by running `etl.py` after running `create_tables.py` and running the analytic queries on your Redshift database to compare your results with the expected results.
 4. Delete redshift cluster when finished.
-
-### Document Process
-
-Do the following steps in README.md file.
-
-1. Discuss the purpose of this database in context of the startup, Sparkify, and their analytical goals.
-2. State and justify your database schema design and ETL pipeline.
